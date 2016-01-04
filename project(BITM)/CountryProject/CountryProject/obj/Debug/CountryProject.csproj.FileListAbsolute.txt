@@ -1,0 +1,12 @@
+H:\MVC-KING (SEIP-10)\26-12-15\CountryProject\CountryProject\bin\CountryProject.dll.config
+H:\MVC-KING (SEIP-10)\26-12-15\CountryProject\CountryProject\bin\CountryProject.dll
+H:\MVC-KING (SEIP-10)\26-12-15\CountryProject\CountryProject\bin\CountryProject.pdb
+H:\MVC-KING (SEIP-10)\26-12-15\CountryProject\CountryProject\obj\Debug\CountryProject.csprojResolveAssemblyReference.cache
+H:\MVC-KING (SEIP-10)\26-12-15\CountryProject\CountryProject\obj\Debug\CountryProject.dll
+H:\MVC-KING (SEIP-10)\26-12-15\CountryProject\CountryProject\obj\Debug\CountryProject.pdb
+D:\BTIM\CountryProject\CountryProject\bin\CountryProject.dll.config
+D:\BTIM\CountryProject\CountryProject\bin\CountryProject.dll
+D:\BTIM\CountryProject\CountryProject\bin\CountryProject.pdb
+D:\BTIM\CountryProject\CountryProject\obj\Debug\CountryProject.csprojResolveAssemblyReference.cache
+D:\BTIM\CountryProject\CountryProject\obj\Debug\CountryProject.dll
+D:\BTIM\CountryProject\CountryProject\obj\Debug\CountryProject.pdb
