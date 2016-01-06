@@ -24,5 +24,10 @@ namespace CountryProject
         {
             Response.Redirect("CityEntry.aspx");
         }
+
+        protected void ViewCountrys_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("View Countrys.aspx");
+        }
     }
 }

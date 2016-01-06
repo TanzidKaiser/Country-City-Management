@@ -31,6 +31,15 @@ namespace CountryProject.UI {
         protected global::System.Web.UI.WebControls.TextBox CountryTextBox;
         
         /// <summary>
+        /// CountryNameLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label CountryNameLabel;
+        
+        /// <summary>
         /// AboutTextBox control.
         /// </summary>
         /// <remarks>
@@ -38,6 +47,15 @@ namespace CountryProject.UI {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox AboutTextBox;
+        
+        /// <summary>
+        /// CountryAboutLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label CountryAboutLabel;
         
         /// <summary>
         /// SaveButton control.

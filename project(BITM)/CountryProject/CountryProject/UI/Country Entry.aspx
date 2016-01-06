@@ -30,12 +30,16 @@
                 <td class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name&nbsp;&nbsp; &nbsp;</td>
                 <td>
                     <asp:TextBox ID="CountryTextBox" runat="server"></asp:TextBox>
+                &nbsp;
+                    <asp:Label ID="CountryNameLabel" runat="server" Text=""></asp:Label>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; About &nbsp;</td>
                 <td>
                     <asp:TextBox ID="AboutTextBox" runat="server"></asp:TextBox>
+                &nbsp;
+                    <asp:Label ID="CountryAboutLabel" runat="server" Text=""></asp:Label>
                 </td>
             </tr>
             <tr>

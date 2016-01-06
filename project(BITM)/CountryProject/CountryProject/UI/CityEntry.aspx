@@ -27,33 +27,42 @@
                 <td class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name&nbsp;</td>
                 <td>
                     &nbsp; &nbsp;<asp:TextBox ID="CityNameTextBox" runat="server"></asp:TextBox>
+                &nbsp;&nbsp;
+                    <asp:Label ID="cityNameLevel" runat="server" Text=""></asp:Label>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; About&nbsp;</td>
                 <td>&nbsp;&nbsp;
                     <asp:TextBox ID="AboutTextBox" runat="server"></asp:TextBox>
-                    &nbsp;</td>
+                    &nbsp;&nbsp;
+                    <asp:Label ID="CityAboutLabel" runat="server" Text=""></asp:Label>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No of dewllers&nbsp;</td>
                 <td>
                     &nbsp;&nbsp;
                     <asp:TextBox ID="NoOfDrewlerTextBox" runat="server"></asp:TextBox>
-                    &nbsp;</td>
+                    &nbsp;&nbsp;
+                    <asp:Label ID="NoOfDrawlerLabel" runat="server" Text=""></asp:Label>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Weather&nbsp;</td>
                 <td>
                     &nbsp;&nbsp;
                     <asp:TextBox ID="WeatherTextBox" runat="server"></asp:TextBox>
-                    &nbsp;
+                    &nbsp;&nbsp;
+                    <asp:Label ID="WeatherLabel" runat="server" Text=""></asp:Label>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Location&nbsp;</td>
                 <td>
                     &nbsp; &nbsp;<asp:TextBox ID="LocationTextBox" runat="server"></asp:TextBox>
+                &nbsp;&nbsp;
+                    <asp:Label ID="LocationLabel" runat="server" Text=""></asp:Label>
                 </td>
             </tr>
             <tr>
@@ -61,7 +70,9 @@
                 <td>
 &nbsp;&nbsp;&nbsp;<asp:DropDownList ID="CountryDropDownList" runat="server">
                     </asp:DropDownList>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="CountryDropDownLabel" runat="server" Text=""></asp:Label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Button ID="SaveButton" runat="server" Text="Save" Height="26px" OnClick="SaveButton_Click" />
 &nbsp;&nbsp;
                     <asp:Button ID="CancleButton" runat="server" Text="Cancle" OnClick="CancleButton_Click" />

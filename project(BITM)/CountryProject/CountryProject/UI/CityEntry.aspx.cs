@@ -44,35 +44,81 @@ namespace CountryProject.UI
 
         protected void SaveButton_Click(object sender, EventArgs e)
         {
-            City aCity = new City();
-            aCity.CityName = CityNameTextBox.Text;
-            aCity.CityAbout = AboutTextBox.Text;
-            aCity.NoOfDwellers = NoOfDrewlerTextBox.Text;
-            aCity.Weather = WeatherTextBox.Text;
-            aCity.Location = LocationTextBox.Text;
-            aCity.CountryId = Convert.ToInt32(CountryDropDownList.SelectedValue);
-            
+            //cityNameLevel.Text = "";
+            //CityAboutLabel.Text = "";
+            //NoOfDrawlerLabel.Text = "";
+            //WeatherLabel.Text = "";
+            //LocationLabel.Text = "";
+            //CountryDropDownLabel.Text = "";
 
-            try
-            {
-                if (aCityManager.Save(aCity))
+            //if (cityNameLevel.Text == "" && CityAboutLabel.Text == "" && NoOfDrawlerLabel.Text == "" && WeatherLabel.Text == "" && LocationLabel.Text == "" && CountryDropDownLabel.Text == "")
+            //{
+            //    cityNameLevel.Text = "Fill City Name";
+            //     CityAboutLabel.Text = "Fill about";
+            //     NoOfDrawlerLabel.Text="Fill City Name";
+            //     WeatherLabel.Text = "Fill Weather";
+            //     LocationLabel.Text =  "Fill Location";
+            //     CountryDropDownLabel.Text = "Select Country";
+            //}
+            //else if (cityNameLevel.Text == "")
+            //{
+            //    cityNameLevel.Text = "Fill City Name";
+            //}
+            //else if (CityAboutLabel.Text == "")
+            //{
+            //    CityAboutLabel.Text = "Fill about";
+            //}
+            //else if (NoOfDrawlerLabel.Text == "")
+            //{
+            //    NoOfDrawlerLabel.Text = "Fill City Name";
+            //}
+            //else if (WeatherLabel.Text == "")
+            //{
+            //    WeatherLabel.Text = "Fill Weather";   
+            //}
+            //else if (LocationLabel.Text == "")
+            //{
+            //    LocationLabel.Text = "Fill Location";
+            //}
+            //else if (CountryDropDownLabel.Text == "")
+            //{
+            //    LocationLabel.Text = "Fill Location";
+            //}
+
+            //else
+            //{
+
+
+                City aCity = new City();
+                aCity.CityName = CityNameTextBox.Text;
+                aCity.CityAbout = AboutTextBox.Text;
+                aCity.NoOfDwellers = Convert.ToInt32(NoOfDrewlerTextBox.Text);
+                aCity.Weather = WeatherTextBox.Text;
+                aCity.Location = LocationTextBox.Text;
+                aCity.CountryId = Convert.ToInt32(CountryDropDownList.SelectedValue);
+
+
+                try
                 {
-                    messageLabel.Text = "Saved Successfully!";
-                    LoadCountry();
-                    LoadCity();
+                    if (aCityManager.Save(aCity))
+                    {
+                        messageLabel.Text = "Saved Successfully!";
+                        LoadCountry();
+                        LoadCity();
+                    }
+                    else
+                    {
+                        messageLabel.Text = "Save Failed!";
+                        LoadCountry();
+                        LoadCity();
+                    }
                 }
-                else
+                catch (Exception exception)
                 {
-                    messageLabel.Text = "Save Failed!";
-                    LoadCountry();
-                    LoadCity();
+                    messageLabel.Text = exception.Message;
                 }
             }
-            catch (Exception exception)
-            {
-                messageLabel.Text = exception.Message;
-            }
-        }
+        //}
 
         protected void CancleButton_Click(object sender, EventArgs e)
         {

@@ -75,10 +75,13 @@
   <ItemGroup>
     <Compile Include="BLL\CityManager.cs" />
     <Compile Include="BLL\CountryManager.cs" />
+    <Compile Include="BLL\ViewCountryManager.cs" />
     <Compile Include="DAL\CityGateway.cs" />
     <Compile Include="DAL\CountryGatway.cs" />
+    <Compile Include="DAL\ViewCountryGateway.cs" />
     <Compile Include="MODEL\City.cs" />
     <Compile Include="MODEL\Country.cs" />
+    <Compile Include="MODEL\ViewModel\ViewCountry.cs" />
     <Compile Include="UI\CityEntry.aspx.cs">
       <DependentUpon>CityEntry.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -32,26 +32,47 @@ namespace CountryProject.UI
 
         protected void SaveButton_Click(object sender, EventArgs e)
         {
-            Country aCountry = new Country();
-            aCountry.CountryName = CountryTextBox.Text;
-            aCountry.CountryAbout = AboutTextBox.Text;
+            CountryNameLabel.Text = "";
+            CountryAboutLabel.Text = "";
 
-            try
+            if (CountryTextBox.Text == "" && AboutTextBox.Text == "")
             {
-                if (aCountryManager.Save(aCountry))
-                {
-                    MessageLabel.Text = "Saved Successfully!";
-                    LoadCountry();
-                }
-                else
-                {
-                    MessageLabel.Text = "Save Failed!";
-                    LoadCountry();
-                }
+                CountryNameLabel.Text = "Fill Country name";
+                CountryAboutLabel.Text = "Fill about property";
             }
-            catch (Exception exception)
+            else if (CountryTextBox.Text == "")
             {
-                MessageLabel.Text = exception.Message;
+                CountryNameLabel.Text = "Fill Country name";
+            }
+            else if (AboutTextBox.Text == "")
+            {
+                CountryAboutLabel.Text = "Fill about property";
+            }
+                                            
+            else
+            {
+
+                Country aCountry = new Country();
+                aCountry.CountryName = CountryTextBox.Text;
+                aCountry.CountryAbout = AboutTextBox.Text;
+
+                try
+                {
+                    if (aCountryManager.Save(aCountry))
+                    {
+                        MessageLabel.Text = "Saved Successfully!";
+                        LoadCountry();
+                    }
+                    else
+                    {
+                        MessageLabel.Text = "Save Failed!";
+                        LoadCountry();
+                    }
+                }
+                catch (Exception exception)
+                {
+                    MessageLabel.Text = exception.Message;
+                }
             }
         }
 

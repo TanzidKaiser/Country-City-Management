@@ -10,3 +10,15 @@ D:\BTIM\CountryProject\CountryProject\bin\CountryProject.pdb
 D:\BTIM\CountryProject\CountryProject\obj\Debug\CountryProject.csprojResolveAssemblyReference.cache
 D:\BTIM\CountryProject\CountryProject\obj\Debug\CountryProject.dll
 D:\BTIM\CountryProject\CountryProject\obj\Debug\CountryProject.pdb
+E:\tanzid(BITM)13batch\githubProject\project(BITM)\CountryProject\CountryProject\bin\CountryProject.dll.config
+E:\tanzid(BITM)13batch\githubProject\project(BITM)\CountryProject\CountryProject\bin\CountryProject.dll
+E:\tanzid(BITM)13batch\githubProject\project(BITM)\CountryProject\CountryProject\bin\CountryProject.pdb
+E:\tanzid(BITM)13batch\githubProject\project(BITM)\CountryProject\CountryProject\obj\Debug\CountryProject.csprojResolveAssemblyReference.cache
+E:\tanzid(BITM)13batch\githubProject\project(BITM)\CountryProject\CountryProject\obj\Debug\CountryProject.dll
+E:\tanzid(BITM)13batch\githubProject\project(BITM)\CountryProject\CountryProject\obj\Debug\CountryProject.pdb
+D:\BTIM\githubProject\project(BITM)\CountryProject\CountryProject\bin\CountryProject.dll.config
+D:\BTIM\githubProject\project(BITM)\CountryProject\CountryProject\bin\CountryProject.dll
+D:\BTIM\githubProject\project(BITM)\CountryProject\CountryProject\bin\CountryProject.pdb
+D:\BTIM\githubProject\project(BITM)\CountryProject\CountryProject\obj\Debug\CountryProject.csprojResolveAssemblyReference.cache
+D:\BTIM\githubProject\project(BITM)\CountryProject\CountryProject\obj\Debug\CountryProject.dll
+D:\BTIM\githubProject\project(BITM)\CountryProject\CountryProject\obj\Debug\CountryProject.pdb

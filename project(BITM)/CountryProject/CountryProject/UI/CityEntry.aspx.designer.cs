@@ -31,6 +31,15 @@ namespace CountryProject.UI {
         protected global::System.Web.UI.WebControls.TextBox CityNameTextBox;
         
         /// <summary>
+        /// cityNameLevel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label cityNameLevel;
+        
+        /// <summary>
         /// AboutTextBox control.
         /// </summary>
         /// <remarks>
@@ -38,6 +47,15 @@ namespace CountryProject.UI {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox AboutTextBox;
+        
+        /// <summary>
+        /// CityAboutLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label CityAboutLabel;
         
         /// <summary>
         /// NoOfDrewlerTextBox control.
@@ -49,6 +67,15 @@ namespace CountryProject.UI {
         protected global::System.Web.UI.WebControls.TextBox NoOfDrewlerTextBox;
         
         /// <summary>
+        /// NoOfDrawlerLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label NoOfDrawlerLabel;
+        
+        /// <summary>
         /// WeatherTextBox control.
         /// </summary>
         /// <remarks>
@@ -56,6 +83,15 @@ namespace CountryProject.UI {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox WeatherTextBox;
+        
+        /// <summary>
+        /// WeatherLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label WeatherLabel;
         
         /// <summary>
         /// LocationTextBox control.
@@ -67,6 +103,15 @@ namespace CountryProject.UI {
         protected global::System.Web.UI.WebControls.TextBox LocationTextBox;
         
         /// <summary>
+        /// LocationLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LocationLabel;
+        
+        /// <summary>
         /// CountryDropDownList control.
         /// </summary>
         /// <remarks>
@@ -74,6 +119,15 @@ namespace CountryProject.UI {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList CountryDropDownList;
+        
+        /// <summary>
+        /// CountryDropDownLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label CountryDropDownLabel;
         
         /// <summary>
         /// SaveButton control.

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using CountryProject.MODEL;
 using CountryProject.DAL;
+using CountryProject.MODEL.ViewModel;
+using CountryProject.DAL;
 
 namespace CountryProject.BLL
 {
@@ -38,5 +40,7 @@ namespace CountryProject.BLL
             CountryGatway aCountryGateway = new CountryGatway();
             return aCountryGateway.GetAll();
         }
+      
+      
     }
 }
